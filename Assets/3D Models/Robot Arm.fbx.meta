@@ -22,7 +22,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -80,7 +80,247 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Robot Arm(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm
+      parentName: Robot Arm(Clone)
+      position: {x: 0.058305483, y: 1.4281201, z: 0.000000001463507}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Upperarm
+      parentName: Arm
+      position: {x: -4.440892e-18, y: 0, z: 7.657178e-20}
+      rotation: {x: -0.6989462, y: 0.010994867, z: 0.03371815, w: 0.7142944}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: Elbow
+      parentName: Upperarm
+      position: {x: -9.778887e-11, y: 0.015054749, z: -6.984919e-12}
+      rotation: {x: 0.6574436, y: -0.015071294, z: 0.72252274, w: 0.21331121}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Forearm
+      parentName: Elbow
+      position: {x: -6.519258e-11, y: 0.0012906009, z: -1.8626451e-11}
+      rotation: {x: -0.10897764, y: 0.038863216, z: 0.0858367, w: 0.9895684}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999997}
+    - name: Hand
+      parentName: Forearm
+      position: {x: -0, y: 0.014032028, z: -0.0000000030174852}
+      rotation: {x: 0.012110451, y: -0.25893533, z: 0.00069314806, w: 0.9658185}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Thumb 1
+      parentName: Hand
+      position: {x: 0.0000026676896, y: 0.0018101026, z: -0.0010173679}
+      rotation: {x: 0.83020884, y: 0.24253204, z: -0.03346822, w: 0.50081074}
+      scale: {x: 0.9999999, y: 0.9999997, z: 0.9999997}
+    - name: Thumb 2
+      parentName: Thumb 1
+      position: {x: 3.7252902e-11, y: 0.001231041, z: -0.0000000019371509}
+      rotation: {x: -0.0006181894, y: 0.00018564607, z: 0.071857125, w: 0.99741477}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999964}
+    - name: Thumb 2_end
+      parentName: Thumb 2
+      position: {x: -0.0000000017136335, y: 0.001227048, z: -5.9604643e-10}
+      rotation: {x: 0.000002926216, y: -0.00017580019, z: 0.00000004749746, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Thumb 2_end_end
+      parentName: Thumb 2_end
+      position: {x: -0, y: 0.0012270473, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Index 1
+      parentName: Hand
+      position: {x: -0.00005735459, y: 0.004879946, z: -0.00089928997}
+      rotation: {x: -0.049689755, y: 0.022032727, z: -0.07037362, w: 0.9960387}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Index 2
+      parentName: Index 1
+      position: {x: 0.000000001527369, y: 0.0011944725, z: 6.61239e-10}
+      rotation: {x: -0.0013112508, y: 0.002767042, z: -0.1789777, w: 0.9838484}
+      scale: {x: 1.0000002, y: 1, z: 0.9999997}
+    - name: Index 3
+      parentName: Index 2
+      position: {x: -0, y: 0.0009761236, z: -0.0000000012665987}
+      rotation: {x: 0.0024912858, y: -0.013928922, z: -0.09245404, w: 0.99561644}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000002}
+    - name: Index 3_end
+      parentName: Index 3
+      position: {x: -5.9604643e-10, y: 0.0007835307, z: -4.842877e-10}
+      rotation: {x: 0.000000014901161, y: -0.000000031664968, z: 0.000000035390254, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Index 3_end_end
+      parentName: Index 3_end
+      position: {x: -0, y: 0.0007835289, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Middle 1
+      parentName: Hand
+      position: {x: 0.0000007904507, y: 0.0049858815, z: -0.0002794297}
+      rotation: {x: 0.026374703, y: 0.011369227, z: -0.20186742, w: 0.9789917}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1.0000002}
+    - name: Middle 2
+      parentName: Middle 1
+      position: {x: 1.2107193e-10, y: 0.0012303572, z: 4.0046869e-10}
+      rotation: {x: 0.004208692, y: 0.0032339613, z: -0.22159278, w: 0.9751249}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999997}
+    - name: Middle 3
+      parentName: Middle 2
+      position: {x: -0.000000001527369, y: 0.00096951856, z: -0.0000000017136335}
+      rotation: {x: -0.0046521504, y: -0.014038549, z: 0.016396143, w: 0.9997562}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+    - name: Middle 3_end
+      parentName: Middle 3
+      position: {x: 1.4901161e-10, y: 0.0008322413, z: 1.4901161e-10}
+      rotation: {x: -0.000000109896064, y: -0.000000033527613, z: 0.000000052154064, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Middle 3_end_end
+      parentName: Middle 3_end
+      position: {x: -0, y: 0.0008322405, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ring 1
+      parentName: Hand
+      position: {x: 0.000022089853, y: 0.004985875, z: 0.00029158022}
+      rotation: {x: -0.006225065, y: 0.017571427, z: -0.33388072, w: 0.942431}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Ring 2
+      parentName: Ring 1
+      position: {x: 5.587935e-10, y: 0.001180045, z: 1.0244548e-10}
+      rotation: {x: -0.0016941247, y: 0.0017471004, z: -0.39076257, w: 0.92048836}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999976}
+    - name: Ring 3
+      parentName: Ring 2
+      position: {x: 0.0000000020535662, y: 0.00095934904, z: 0}
+      rotation: {x: 0.0022475328, y: -0.013978003, z: -0.06921393, w: 0.9975014}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Ring 3_end
+      parentName: Ring 3
+      position: {x: -1.2107193e-10, y: 0.00083224545, z: -4.4703483e-10}
+      rotation: {x: 0.000000026077032, y: -0.000000059604645, z: 0.000000055879354, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ring 3_end_end
+      parentName: Ring 3_end
+      position: {x: -0, y: 0.0008322453, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Little 1
+      parentName: Hand
+      position: {x: 0.000010665282, y: 0.0048799464, z: 0.0009240979}
+      rotation: {x: -0.36628816, y: 0.42473432, z: -0.03713773, w: 0.827076}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1.0000001}
+    - name: Little 2
+      parentName: Little 1
+      position: {x: -8.9406965e-10, y: 0.0011321324, z: 2.7939676e-10}
+      rotation: {x: 0.0003352249, y: 0.0036976046, z: -0.44027787, w: 0.8978539}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999964}
+    - name: Little 3
+      parentName: Little 2
+      position: {x: 0.0000000028591602, y: 0.0009049445, z: 6.519258e-10}
+      rotation: {x: -0.12749435, y: 0.019178886, z: 0.28909925, w: 0.94857734}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Little 3_end
+      parentName: Little 3
+      position: {x: 0.0000000016763806, y: 0.00078353, z: 8.9406965e-10}
+      rotation: {x: 0.00000009313224, y: 0.000000007450581, z: -0.0000000074505797, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Little 3_end_end
+      parentName: Little 3_end
+      position: {x: -0, y: 0.0007835312, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Top piston bot
+      parentName: Forearm
+      position: {x: -0.0000490727, y: 0.00087821804, z: -0.0013155141}
+      rotation: {x: 0.9073913, y: 0.0008111713, z: -0.016705865, w: -0.41995388}
+      scale: {x: 1, y: 1.0000004, z: 1.0000012}
+    - name: Top piston bot_end
+      parentName: Top piston bot
+      position: {x: -4.4237822e-11, y: 0.0015452054, z: 3.7252902e-11}
+      rotation: {x: 0.000000045896734, y: 0.00000000676664, z: -0.0000000012805685, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Top piston bot_end_end
+      parentName: Top piston bot_end
+      position: {x: -0, y: 0.0015452051, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bot piston bot
+      parentName: Forearm
+      position: {x: 0.000040387622, y: 0.011351032, z: 0.0010826811}
+      rotation: {x: 0.9992154, y: 0.0008483092, z: -0.01863095, w: 0.03493926}
+      scale: {x: 0.99999976, y: 1, z: 0.99999964}
+    - name: Bot piston bot_end
+      parentName: Bot piston bot
+      position: {x: 6.519258e-11, y: 0.0024028465, z: -6.484333e-10}
+      rotation: {x: 0.000000021900632, y: -3.4924597e-10, z: 0.00000000273576, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Bot piston bot_end_end
+      parentName: Bot piston bot_end
+      position: {x: -0, y: 0.0024028446, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Top piston target
+      parentName: Upperarm
+      position: {x: -0.00020106227, y: 0.011075174, z: -0.0012522887}
+      rotation: {x: -0.39806855, y: 0.024803981, z: -0.010349927, w: 0.91696185}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: Top piston top
+      parentName: Top piston target
+      position: {x: 3.085006e-11, y: 0.00047543817, z: 0.0000000010582153}
+      rotation: {x: 0.4057641, y: 0.0024033468, z: -0.005195161, w: 0.9139599}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999997}
+    - name: Top piston top_end
+      parentName: Top piston top
+      position: {x: 2.1536835e-11, y: 0.0015155191, z: 2.5262123e-10}
+      rotation: {x: -0.00000009666475, y: 0.00000001168519, z: -0.000000012561943, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Top piston top_end_end
+      parentName: Top piston top_end
+      position: {x: -0, y: 0.0015155216, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bot piston target
+      parentName: Upperarm
+      position: {x: 0.0000101148335, y: 0.013894479, z: 0.0014775163}
+      rotation: {x: -0.04524001, y: 0.019488752, z: -0.01850844, w: 0.99861455}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bot piston top
+      parentName: Bot piston target
+      position: {x: -2.386514e-11, y: 0.003969418, z: 1.3184034e-10}
+      rotation: {x: -0.40247616, y: 0.0011680772, z: -0.027601713, w: 0.91501355}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999996}
+    - name: Bot piston top_end
+      parentName: Bot piston top
+      position: {x: -4.6566128e-12, y: 0.0025696992, z: -5.500624e-10}
+      rotation: {x: -0.000000037431164, y: 4.656613e-10, z: -6.9849193e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bot piston top_end_end
+      parentName: Bot piston top_end
+      position: {x: -0, y: 0.0025696987, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandIK
+      parentName: Arm
+      position: {x: -0.00058305485, y: -0.009995333, z: -0.02579505}
+      rotation: {x: -0.51905537, y: 0.46037292, z: 0.47786677, w: 0.53877795}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: HandIK_end
+      parentName: HandIK
+      position: {x: -7.8231094e-10, y: 0.00364391, z: 6.674855e-10}
+      rotation: {x: 2.4819258e-11, y: 2.9825031e-12, z: 0.0000000037216523, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandIK_end_end
+      parentName: HandIK_end
+      position: {x: -0, y: 0.0036439097, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm.001
+      parentName: Robot Arm(Clone)
+      position: {x: -0.0000000037252903, y: -0.00000011920929, z: 0.00000023742412}
+      rotation: {x: -0.00000016292071, y: 0.00000008847229, z: 1, w: 0.000000043711406}
+      scale: {x: 10.625558, y: 10.625558, z: 10.625558}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -91,13 +331,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Index Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Arm Mesh
+    m_Weight: 0
+  - m_Path: Robot Arm
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Index 1
+    m_Weight: 1
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Index 1/Index 2
+    m_Weight: 1
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Index 1/Index 2/Index 3
+    m_Weight: 1
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Index 1/Index 2/Index 3/Index 3_end
+    m_Weight: 1
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Little 1
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Little 1/Little 2
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Little 1/Little 2/Little 3
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Little 1/Little 2/Little 3/Little
+      3_end
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Middle 1
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Middle 1/Middle 2
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Middle 1/Middle 2/Middle 3
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Middle 1/Middle 2/Middle 3/Middle
+      3_end
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Ring 1
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Ring 1/Ring 2
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Ring 1/Ring 2/Ring 3
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Ring 1/Ring 2/Ring 3/Ring 3_end
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Thumb 1
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Thumb 1/Thumb 2
+    m_Weight: 0
+  - m_Path: Robot Arm/Upperarm/Elbow/Forearm/Hand/Thumb 1/Thumb 2/Thumb 2_end
+    m_Weight: 0
